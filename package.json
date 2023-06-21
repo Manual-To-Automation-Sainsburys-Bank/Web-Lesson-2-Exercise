@@ -1,0 +1,33 @@
+{
+  "name": "browserstack-tu-webdriverio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bstack-parallel-browsers": "npx wdio resources/conf/wdio-bstack-parallel-browsers.conf.js",
+    "bstack-parallel": "npx wdio resources/conf/wdio-bstack-parallel.conf.js",
+    "bstack-single": "npx wdio resources/conf/wdio-bstack-single.conf.js",
+    "on-prem": "npx wdio resources/conf/wdio-on-prem.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@axe-core/webdriverio": "^4.7.1",
+    "@rpii/wdio-html-reporter": "^6.3.1",
+    "@wdio/allure-reporter": "^8.10.6",
+    "@wdio/browserstack-service": "^8.10.6",
+    "@wdio/cli": "^8.10.6",
+    "@wdio/local-runner": "^8.10.6",
+    "@wdio/mocha-framework": "^8.10.6",
+    "@wdio/spec-reporter": "^8.10.6",
+    "allure-commandline": "^2.22.1",
+    "browserstack-local": "1.5.2",
+    "chai": "4.3.7",
+    "chromedriver": "^113.0.0",
+    "lodash": "4.17.21",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-docker-service": "^3.2.1",
+    "webdriverio": "8.10.6"
+  }
+}
